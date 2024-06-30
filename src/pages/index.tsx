@@ -28,7 +28,7 @@ export default function Home() {
       </div>
     </div>
 
-    {/*About Me Section*/}
+    {/*About Me Section
     <div id="aboutMeSection" className="w-4/5 md:w-full mb-12 mt-12 md:mt-0 grid md:grid-flow-col grid-flow-row gap-8 justify-center items-center">
           <div className="md:order-1 order-2 justify-center align-center flex">
             <Image className="rounded-2xl rounded md:max-h-48 lg:max-h-64 max-h-44 w-auto" src={aboutMePicture} alt=""/>
@@ -40,19 +40,7 @@ export default function Home() {
                 <p className="pb-2 text-center md:text-start">💻 Sou formada em Ciência da Computação pelo Cefet/RJ e trabalho com Desenvolvimento Web há mais de dois anos</p>
                 <p className="text-center md:text-start">💡Trabalho remotamente e gosto muito de viajar e conhecer novos lugares</p>
           </div>
-          {/*<div className="flex items-center justify-center md:flex-row flex-col-reverse px-6 mx-auto space-y-0 mt-10 mb-32 md:space-y-0 gap-16">
-              <div>
-                <Image className="rounded-2xl rounded" src={aboutMePicture} width={450} alt=""/>
-              </div>
-              <div className="md:w-2/5">
-                <h1 className="pt-4 max-w-md text-4xl text-center sm:text-left md:text-3xl font-bold ">Sobre mim</h1>
-                <h2 className="text-xl pb-5">Full Stack Web Developer com base no Rio de Janeiro - Brasil 📍</h2>
-                <p className="text-justify pb-2">👋 Me chamo Thainá, mas pode me chamar de Thai</p>
-                <p className="pb-2">💻 Sou formada em Ciência da Computação pelo Cefet/RJ e trabalho com Desenvolvimento Web há mais de dois anos</p>
-                <p>💡Trabalho remotamente e gosto muito de viajar e conhecer novos lugares</p>
-              </div>
-          </div>*/}
-      </div>
+      </div>*/}
 
       <footer className="w-full  rounded-lg shadow  mt-4">
         <div className="w-full max-w-screen-xl mx-auto ">
