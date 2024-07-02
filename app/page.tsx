@@ -6,7 +6,8 @@ import { MdConstruction } from "react-icons/md";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiPhp, SiNestjs } from "react-icons/si";
 
-import profilePicture from './assets/profilepicture.png';
+import avatar from './assets/avatar.svg';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
           </div>
         </div>
         <div className="md:order-2 order-1 justify-center flex"> 
-          <Image className="object-contain h-auto max-w-64 " src={profilePicture} alt=""/>
+          <Image className="object-contain h-auto max-w-64 " src={avatar} alt=""/>
         </div>
       </div>
       <div className="flex gap-3 items-center justify-center">
@@ -38,12 +39,7 @@ export default function Home() {
         <div className="py-1 px-3 gap-1 flex justify-center items-center bg-slate-700 rounded rounded-3xl text-md"><SiNestjs className="text-red-400" size="1rem"/> NestJS</div>
 
       </div>
-      <footer className="w-full rounded-lg shadow mt-4 bottom-0 absolute">
-        <div className="w-full max-w-screen-xl mx-auto ">
-            <hr className="mx-6 mb-6 border-gray-200 sm:mx-auto dark:border-gray-700" />
-            <span className="mb-6 block text-sm text-gray-500 sm:text-center dark:text-white-400">© 2024 <Link href="#" className="hover:underline">Thainá Pires</Link>. Todos os direitos reservados.</span>
-        </div>
-      </footer>
+      <Footer/>
     </main>
   );
 }
