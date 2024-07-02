@@ -15,10 +15,10 @@ export default function Header() {
                 </div>
                 <div className="hidden md:flex space-x-6">
                     <Link href="/" className="hover:text-mainPurple">Home</Link>
-                    <Link href="/" className="hover:text-mainPurple">Sobre mim</Link>
-                    <Link href="/" className="hover:text-mainPurple">Carreira</Link>
-                    <Link href="/" className="hover:text-mainPurple">Projetos</Link>
-                    <Link href="/" className="hover:text-mainPurple">Contato</Link>
+                    <Link href="/about-me" className="hover:text-mainPurple">Sobre mim</Link>
+                    <Link href="/resume" className="hover:text-mainPurple">Carreira</Link>
+                    <Link href="/projects" className="hover:text-mainPurple">Projetos</Link>
+                    <Link href="/contact" className="hover:text-mainPurple">Contato</Link>
                 </div>
                 <ThemeSwitcher/>
             </div>
